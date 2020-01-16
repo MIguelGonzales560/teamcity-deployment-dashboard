@@ -59,7 +59,7 @@
 }
 
 #deploys th {
-  font-weight: normal;
+  font-weight: 800;
   font-size: 1.3rem;
   text-align: left;
   /* Wrap title at any character rather than under-flowing into next */
@@ -79,13 +79,13 @@
   flex-direction: row;
   align-items: center;
   text-align: left;
-
-  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bolder;
   padding-left: 1rem;
 }
 
 #deploys th, #deploys td {
   justify-content: space-between;
-  padding: 1rem 0;
-  border-bottom: 1px solid lightgrey;
+  padding: 0.2rem 0;
+  border-bottom: 1px dashed #ddd;
 }
