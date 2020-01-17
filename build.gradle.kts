@@ -25,7 +25,7 @@ repositories {
 group = "com.github.vyadh.teamcity"
 version = "1.9.0${buildNumber()}"
 
-extra["teamcityVersion"] = findProperty("teamcity.version") ?: "2018.2"
+extra["teamcityVersion"] = findProperty("teamcity.version") ?: "2019.2"
 
 subprojects {
   tasks.withType<Test> {
