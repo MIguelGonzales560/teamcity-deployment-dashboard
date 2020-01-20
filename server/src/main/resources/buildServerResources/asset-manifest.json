@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/plugins/deployment-dashboard/static/css/main.0b91f214.chunk.css",
+    "main.js": "/plugins/deployment-dashboard/static/js/main.cf077472.chunk.js",
+    "main.js.map": "/plugins/deployment-dashboard/static/js/main.cf077472.chunk.js.map",
+    "runtime-main.js": "/plugins/deployment-dashboard/static/js/runtime-main.99c2a7b6.js",
+    "runtime-main.js.map": "/plugins/deployment-dashboard/static/js/runtime-main.99c2a7b6.js.map",
+    "static/js/2.3fc64522.chunk.js": "/plugins/deployment-dashboard/static/js/2.3fc64522.chunk.js",
+    "static/js/2.3fc64522.chunk.js.map": "/plugins/deployment-dashboard/static/js/2.3fc64522.chunk.js.map",
+    "index.html": "/plugins/deployment-dashboard/index.html",
+    "precache-manifest.055ce0176c4e2ee3cecdc0d0fccabccd.js": "/plugins/deployment-dashboard/precache-manifest.055ce0176c4e2ee3cecdc0d0fccabccd.js",
+    "service-worker.js": "/plugins/deployment-dashboard/service-worker.js",
+    "static/css/main.0b91f214.chunk.css.map": "/plugins/deployment-dashboard/static/css/main.0b91f214.chunk.css.map",
+    "static/js/2.3fc64522.chunk.js.LICENSE": "/plugins/deployment-dashboard/static/js/2.3fc64522.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99c2a7b6.js",
+    "static/js/2.3fc64522.chunk.js",
+    "static/css/main.0b91f214.chunk.css",
+    "static/js/main.cf077472.chunk.js"
+  ]
+}

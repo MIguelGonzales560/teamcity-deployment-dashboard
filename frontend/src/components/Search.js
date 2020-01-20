@@ -7,7 +7,7 @@ export const Search = ({filter}) => {
         <SearchIcons/>
 
         <form noValidate="noValidate" className="search-form">
-          <input type="search" placeholder="Search..." required="required" className="search-input"
+          <input type="search" placeholder="Deployment Search..." onkeypress="return event.keyCode != 13;" required="required" className="search-input"
                  onChange={event => filter(event.target.value)}/>
           <span className="search-submit">
           <svg role="img" aria-label="Search">

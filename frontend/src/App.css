@@ -42,9 +42,9 @@
   /* Center child table */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
 
-  margin: 1rem 1rem;
+  margin: 2.5rem 1rem;
 }
 
 #deploys table {
@@ -59,33 +59,38 @@
 }
 
 #deploys th {
-  font-weight: 800;
-  font-size: 1.3rem;
+  font-weight: 700;
+  font-size: 1rem;
   text-align: left;
   /* Wrap title at any character rather than under-flowing into next */
   word-break: break-word;
+  margin-bottom: 0px;
 
   /* Make the header sticky to the top when scrolling */
   position: sticky;
   top: 0;
   /* Position header above table content and making sure it doesn't show through */
   z-index: 100;
-  background-color: white;
+  background-color: #40b55f;
+  color: #ffffff;
 }
 
 /* Project names */
 #deploys td:nth-child(1) {
   display: flex;
+  width: 350px;
   flex-direction: row;
   align-items: center;
   text-align: left;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 14px;
   padding-left: 1rem;
+  height: 40px;
 }
 
 #deploys th, #deploys td {
   justify-content: space-between;
-  padding: 0.2rem 0;
-  border-bottom: 1px dashed #ddd;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px ridge #e3e9ef;
 }

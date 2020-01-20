@@ -28,12 +28,12 @@
 }
 
 #deploys .build-version {
-    font-weight: bold;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
 #deploys .build-time {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 #deploys .status-icon {

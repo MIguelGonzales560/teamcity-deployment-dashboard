@@ -75,7 +75,7 @@ const Deploys = ({environments, deploysPerApp}) => {
 /* Header + spacer column + environment columns */
 const DeployHeader = ({environments}) => (
   <tr>
-    <th/>
+    <th>DEPLOYMENT</th>
     <th/>
     {environments.map(env => <th key={env}>{env}</th>)}
   </tr>
